@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ex of Direct visit new Link"
+        android:layout_gravity="center"
+        android:textColor="#E65100"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+
+         />
+
+    <Button
+        android:id="@+id/youtube"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/shape"
+        android:text="youtube">
+
+    </Button>
+
+    <Button
+        android:id="@+id/google"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/shape"
+        android:layout_marginTop="50dp"
+        android:text="Google">
+
+    </Button>
+
+    <Button
+        android:id="@+id/facebook"
+        android:layout_width="139dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/shape"
+        android:layout_marginTop="50dp"
+        android:text="Facebook">
+
+    </Button>
+
+    <Button
+        android:id="@+id/hacker"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/shape"
+
+        android:text="Hacker Rank">
+
+    </Button>
+
+
+</LinearLayout>
